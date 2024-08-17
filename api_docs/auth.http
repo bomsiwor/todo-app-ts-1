@@ -1,0 +1,20 @@
+@baseUrl = http://localhost:8012/api/v1/auth
+
+### Login User
+POST {{baseUrl}}/login
+Content-Type: application/json
+
+{
+    "email" : "bomsiwor@gmail.com",
+    "password" : "kamicintaIndonesia45"
+}
+
+### Register
+POST {{baseUrl}}/register
+Content-Type: application/json
+
+{
+    "email" : "bomsiwor@gmail.com",
+    "password" : "kamicintaIndonesia45",
+    "name" : "Bomsiwor"
+}
